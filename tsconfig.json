@@ -1,0 +1,28 @@
+{
+  "include": [
+    "./src"
+  ],
+  "compilerOptions": {
+    "rootDir": "./src",
+    "target": "ESNext",
+    "module": "es2015",
+    "lib": [
+      "es6",
+      "es5",
+      "DOM",
+      "ScriptHost"
+    ],
+    "jsx": "react",
+    "esModuleInterop": true,
+    "allowJs": true,
+    "checkJs": true,
+    "sourceMap": true,
+    "strict": true,
+    "noImplicitReturns": true,
+    "allowSyntheticDefaultImports": true,
+    "moduleResolution": "node",
+    "typeRoots": [
+      "./typings"
+    ]
+  }
+}
